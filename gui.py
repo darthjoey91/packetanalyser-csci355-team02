@@ -37,6 +37,7 @@ class MyFrame(wx.Frame):
         self.Bind(wx.EVT_BUTTON, self.btnStart_Click, self.btnStart)
         self.Bind(wx.EVT_BUTTON, self.btnStop_Click, self.btnStop)
         self.Bind(wx.EVT_BUTTON, self.btnClear_Click, self.btnClear)
+	self.Bind(wx.EVT_BUTTON, self.btnPrint_Click, self.btnPrint)
         # end wxGlade
 
     def __set_properties(self):
