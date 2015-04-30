@@ -62,7 +62,7 @@ class MyFrame(wx.Frame):
 
 	def __set_properties(self):
 		# begin wxGlade: MyFrame.__set_properties
-		self.SetTitle(_("frame_1"))
+		self.SetTitle(_("Packet Analyser"))
 		self.SetSize((800, 600))
 		# end wxGlade
 
